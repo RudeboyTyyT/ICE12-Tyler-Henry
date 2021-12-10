@@ -33,7 +33,7 @@ public class HelloApplication extends Application {
         Button clickMeButton = new Button("Click me");
 
         // Step 1.1 - Configure your controls
-        Font font = Font.font("Consolas", FontWeight.BOLD, 20);
+        Font font = Font.font("Consoles", FontWeight.BOLD, 20);
         clickMeButton.setFont(font);
 
         // Step 1.2 - For button controls (or other event-type controls) - set the event
@@ -47,9 +47,9 @@ public class HelloApplication extends Application {
         });
 
         // Step 2 - create a container
-        // HBox hbox = new HBox(helloLabel, clickMeBUtton);
+        // HBox hbox = new HBox(helloLabel, clickMeButton);
 
-        //VBox vbox = new VBox(helloLabel, clickMeBUtton);
+        // VBox vbox = new VBox(helloLabel, clickMeButton);
 
         GridPane gridPane = new GridPane();
 
